@@ -1,0 +1,268 @@
+/* General Styles */
+body {
+    margin: 0%;
+    background-color: #D3CEDF;
+    color: #21374f;
+    font-family: "Baloo Tamma 2", serif;
+    font-size: 20px;
+}
+
+/* Nav Styles */
+nav {
+    background-color: #9CB4CC;
+    padding: 15px 20px;
+    font-family: "Gayathri", serif;
+    font-size: 130%;
+    color: #21374f;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 8px 10px #7f8b97;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav p,
+nav a {
+    margin-top: 0%;
+}
+
+nav a {}
+
+nav a:visited {
+    color: #8261ca;
+}
+
+nav a:hover {
+    color: #617e9b;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #21374f;
+    padding: 30px 15px 20px 10px;
+    font-family: "Gayathri", serif;
+    font-size: 100%;
+    color: #9CB4CC;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+footer a {}
+
+footer a:visited {
+    color: #D3CEDF;
+}
+
+footer a:hover {
+    color: #617e9b;
+}
+
+/* Splash Section */
+.splash {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 30% 10% auto;
+}
+
+.splash h1 {
+    margin-top: 100px;
+    margin-bottom: 0%;
+    text-align: center;
+    font-family: "Poiret One", serif;
+    font-size: 300%;
+    grid-column: 1 / 3;
+    background-image: linear-gradient(to right, #21374f, #D3CEDF);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.splash img {
+    border: 4mm ridge #cbc2e2;
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+    place-self: center;
+}
+
+.splash p {
+    font-family: "Baloo Tamma 2", serif;
+}
+
+.splash-description {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    margin: 5% 15% 5% 15%;
+    font-size: 20px;
+    text-align: justify;
+    background-color: #F2D7D9;
+    
+}
+
+.splash-contact {
+    text-align: center;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+
+/* Horizontal Rules */
+hr {
+    margin-top: 15px;
+    border-top: 3px dashed #748DA6;
+}
+
+/* Sections */
+section {
+    margin: 0 5% 5% 5%;
+    background-color: #F2D7D9;    
+}
+
+/* Section Headings */
+section h2 {
+    text-align: center;
+    font-family: "Poiret One", serif;
+    font-size: 250%;
+    background-image: linear-gradient(to right, #21374f, #D3CEDF);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/* Paragraph Styles */
+section p {
+    text-align: center;
+    font-size: 20px;
+    margin: 0 15% 5% 15%;
+}
+
+/* link styles */
+section a {
+    color: #35516d;
+    text-decoration: none;
+}
+
+section a:visited{
+    color: #8261ca;
+}
+
+section a:hover {
+    color: #617e9b;
+}
+
+/* List Styles */
+ul {
+    padding: 0 5% 0 5%;
+    background: #f5c7c8;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 2px;
+}
+
+dl dt {
+    font-size: 25px;
+    text-align: center;
+    background: #f5c7c8;
+}
+
+dl dd {
+    padding: 0 5% 0 5%;
+    background: #f5c7c8;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    padding: 2px 50px;
+}
+
+.three-col h2 {
+    grid-column: 1 / 4;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 #7f8b97;
+    transition: 0.3s;
+    padding: 20px 50px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #D3CEDF;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 #7f8b97;
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+.card ul {
+    background-color: #bcb3d4;
+}
+
+.card h3 {
+    text-align: center;
+    font-family: "Dosis", serif;
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 5% 5% 5%;
+}
+
+.one-col h1 {
+    margin-top: 100px;
+    margin-bottom: 0%;
+    text-align: center;
+    font-family: "Poiret One", serif;
+    font-size: 300%;
+    grid-column: 1 / 3;
+    background-image: linear-gradient(to right, #21374f, #D3CEDF);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+form {}
+
+form input,
+form textarea {
+    border: ridge #F2D7D9 5px;
+}
+
+form input:focus,
+form textarea:focus {
+    background-color: #d5dee9;
+}
+
+form button {
+    font-family: "Baloo Tamma 2", serif;
+    font-size: 20px;
+    color: #21374f;
+    background-color: #9CB4CC;
+    border-radius: 5px;
+    justify-self: center;    
+    width:fit-content;    
+}
+
+form button:hover {
+    background-color: #617e9b;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+/* Thank you page styles */
+
+.thankyou {
+    font-family: "Dosis", serif;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 29%;
+}
