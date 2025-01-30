@@ -25,11 +25,12 @@ nav {
 
 nav p,
 nav a {
-    color: #21374f;
     margin-top: 0%;
 }
 
-nav a {}
+nav a {
+   color: #21374f;
+}
 
 nav a:visited {
     color: #8261ca;
