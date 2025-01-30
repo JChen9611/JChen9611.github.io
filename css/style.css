@@ -25,6 +25,7 @@ nav {
 
 nav p,
 nav a {
+    color: #21374f;
     margin-top: 0%;
 }
 
@@ -50,7 +51,9 @@ footer {
     gap: 5px;
 }
 
-footer a {}
+footer a {
+    color: #9CB4CC;
+}
 
 footer a:visited {
     color: #D3CEDF;
